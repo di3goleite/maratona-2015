@@ -2,39 +2,41 @@
 Repositório da equipe
 
 # Membros
-Diego
-Heitor
-Lucas
+* Diego
+* Heitor
+* Lucas
 
 # Coach
-Pâmela
+* Pâmela
 
 # Organização de diretórios
-├── competitions
-│   └── 13-06-2015
-│       ├── A.c
-│       ├── A.in
-│       ├── A.out
-│       └── questions.pdf
-├── contests
-│   ├── diego
-│   │   └── 26-05-2015
-│   │       ├── 0000.c
-│   │       ├── 0000.in
-│   │       └── 0000.out
-│   ├── heitor
-│   │   └── 26-05-2015
-│   │       ├── 0000.c
-│   │       ├── 0000.in
-│   │       └── 0000.out
-│   └── lucas
-│       └── 26-05-2015
-│           ├── 0000.c
-│           ├── 0000.in
-│           └── 0000.out
-├── meetings
-│   └── 26-05-2015
-│       └── log
+.  
+├── competitions  
+│   └── 13-06-2015  
+│       ├── A.c  
+│       ├── A.in  
+│       ├── A.out  
+│       └── questions.pdf  
+├── contests  
+│   ├── diego  
+│   │   └── 26-05-2015  
+│   │       ├── 0000.c  
+│   │       ├── 0000.in  
+│   │       └── 0000.out  
+│   ├── heitor  
+│   │   └── 26-05-2015  
+│   │       ├── 0000.c  
+│   │       ├── 0000.in  
+│   │       └── 0000.out  
+│   └── lucas  
+│       └── 26-05-2015  
+│           ├── 0000.c  
+│           ├── 0000.in  
+│           └── 0000.out  
+├── meetings  
+│   └── 26-05-2015  
+│       └── log  
+└── README.md  
 
 # Dicas
 ## Executar o programa, jogar a entrada e comparada a saída gerada com a esperada
