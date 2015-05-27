@@ -44,6 +44,6 @@ Repositório da equipe
 ./programa < entrada | diff - saida
 ```
 # Material
-* Competitive Programming
+* Competitive Programming 3
 * [Stanford notebook](http://stanford.edu/~liszt90/acm/notebook.html)
 * [CPlusPlus Reference](http://www.cplusplus.com/reference/)
