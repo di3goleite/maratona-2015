@@ -39,9 +39,13 @@ Repositório da equipe
 └── README.md  
 
 # Dicas
-## Executar o programa, jogar a entrada e comparada a saída gerada com a esperada
+## Compilar
 ```bash
-./programa < entrada | diff - saida
+make program
+```
+## Executar e comprara o resultado com a saída esperada
+```bash
+./program < program.in | diff - program.out
 ```
 # Material
 * Competitive Programming 3
