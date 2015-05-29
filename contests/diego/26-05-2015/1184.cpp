@@ -1,44 +1,35 @@
 #include <stdio.h>
 
 int main() {
+	float M[12][12], result=0;
 	int count=0;
-	float result=0;
-	float M[12][12];
-	char O;
+	char in;
 	
-	scanf("%c", &O);
+	scanf("%c", &in);
 	
-	for(int i=0; i<12; i++){
-		for(int j=0; j<12; j++){
+	for(int j=0; j<12; j++) {
+		for(int i=0; i<12; i++) {
 			scanf("%f", &M[i][j]);
 		}
 	}
 	
-	for(int i=0; i<12; i++){
-		for(int j=0; j<12; j++){
-			printf("%.1f ", M[i][j]);
-		}
-		printf("\n");
-	}
-	
-	if(O == 'S') {
-		for(int i=0; i<11; i++){
-			for(int j=i+1; j<12; j++) {
+	// Make sum
+	if(in == 'S') {
+		for(int j=1; j<=11; j++) {
+			for(int i=0; i<j; i++) {
 				result = result + M[i][j];
 			}
 		}
 	} else {
-		for(int i=0; i<11; i++){
-			for(int j=i+1; j<12; j++) {
+		for(int j=1; j<=11; j++) {
+			for(int i=0; i<j; i++) {
 				result = result + M[i][j];
 				count++;
 			}
 		}
-		
 		result = result/count;
 	}
-
+	
 	printf("%.1f\n", result);
-
 	return 0;
 }
