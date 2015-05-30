@@ -21,4 +21,4 @@ int main () {
         printf ("%.1lf\n", total/((double)val) );
  
     return 0;
-} 
+}  
