@@ -28,4 +28,4 @@ int main () {
 			cout<<"frase mal elaborada"<<endl;
 	}
 	return 0;
-}
+} 
