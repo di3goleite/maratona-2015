@@ -18,4 +18,4 @@ int main () {
 	printf ("Gasolina: %d\n", gas);
 	printf ("Diesel: %d\n", die);
 	return 0;
-}
+} 
