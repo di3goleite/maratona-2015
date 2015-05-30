@@ -21,4 +21,4 @@ int main () {
 			printf ("Case %d: %d\n", caseNo++,cont);
 	}
 	return 0;
-}
+} 
