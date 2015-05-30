@@ -10,4 +10,4 @@ int main () {
 	}
 	printf ("%d valores pares\n", res);
 	return 0;
-}
+} 
